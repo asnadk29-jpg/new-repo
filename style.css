@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 400px;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+}
+
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 0 10px gray;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}
